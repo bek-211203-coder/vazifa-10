@@ -1,0 +1,35 @@
+.logos{
+    margin-bottom: 100px;
+}
+.logos__container{
+    text-align: center;
+
+
+    h4{
+        color: #0D7D38;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        // text-align: center;
+        margin-bottom: 37px;
+        
+    }
+
+    .logos-companies{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+
+        .anchor {
+            img{
+                opacity: 50%;
+                transition: all 0.6s;
+                &:hover{
+                    opacity: 100%;
+                }
+            }
+        }
+    }
+}
+
